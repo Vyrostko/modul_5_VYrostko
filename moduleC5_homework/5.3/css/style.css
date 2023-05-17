@@ -1,0 +1,52 @@
+.request {
+    padding: 30px;
+    background-color: rgb(100, 200, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#input {
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center
+}
+
+#btn {
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+#btn:hover {
+      transform: scale(1.05);
+      background-color:rgb(255, 0, 0)
+
+}
+
+.j-content {
+    background-color:rgb(255, 255, 0);
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 300px
+}
+
+.card_image {
+    display: block;
+    margin: 5px;
+    width: 200px;
+    height: 150px
+}
+
+.card {
+    width: 200px;
+    margin: 20px
+}
